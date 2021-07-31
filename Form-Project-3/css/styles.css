@@ -64,6 +64,10 @@ input:focus{
   transform: scale(1.1);
 }
 
+button:focus {
+  background: steelblue;
+}
+
 ::-webkit-input-placeholder{
     font-style: italic;
     text-align: right;
