@@ -68,6 +68,8 @@ button:focus {
   background: steelblue;
 }
 
+
+
 ::-webkit-input-placeholder{
     font-style: italic;
     text-align: right;
@@ -179,7 +181,7 @@ input, select, textarea {
       border-radius: 5px;
       padding: 10px;
       background-color: rgb(245, 245, 245);
-      width: 40%;
+      width: 50%;
 }
 
 
@@ -190,8 +192,8 @@ input, select, textarea {
     .input-section  {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         padding: 20px;
+        /* justify-content: space-between; */
 }
 
       .container {
@@ -207,7 +209,7 @@ input, select, textarea {
 }
 
 
-      #name,#email,#phone,#city,#address1,#state,#zip,label {
+      #name,#email,#phone,#city,#address1,#state,label {
         min-width: 200px;
       }
 
@@ -217,17 +219,13 @@ input, select, textarea {
       }
 
       .zippy {
-        width: 57%;
+        width: 25%;
       }
 
       #state {
         width: 80%;
       }
 
-      #zip-id {
-      display: inline-flex;
-      width: 48%;
-      }
-
 
 }
+
