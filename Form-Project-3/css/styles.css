@@ -1,4 +1,4 @@
-*{ font-family: 'Merriweather', serif;
+* { font-family: 'Merriweather', serif;
 }
 
 * {
@@ -68,6 +68,18 @@ button:focus {
   background: steelblue;
 }
 
+.form-input:hover {
+  transition-duration:0.3s;
+  width: 340px;
+  background-color: lightblue;
+}
+
+.zippy:hover {
+  transition-duration:0.5s;
+  width: 300px;
+  background-color: lightblue;
+
+}
 
 
 ::-webkit-input-placeholder{
@@ -225,7 +237,7 @@ input, select, textarea {
       #state {
         width: 80%;
       }
-
-
+textarea {
+  text-align: left;
 }
-
+}
