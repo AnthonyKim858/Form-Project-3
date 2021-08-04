@@ -69,8 +69,8 @@ button:focus {
 }
 
 .form-input:hover {
-  transition-duration:0.4s;
-  width: 340px;
+  transition-duration:0.5s;
+  width: 320px;
   background-color: lightblue;
 }
 
