@@ -235,7 +235,5 @@ input, select, textarea {
       #state {
         width: 80%;
       }
-textarea {
-  text-align: left;
-}
+
 }
