@@ -56,27 +56,26 @@ textarea:focus {
 }
 
 select:focus {
-  background: steelblue;
+  background: lightblue;
 }
 
 input:focus{
-  background: steelblue;
+  background: lightblue;
   transform: scale(1.1);
+  transition-duration: 0.8s;
+  font-size: 25px;
+
 }
 
 button:focus {
   background: steelblue;
 }
 
-.form-input:hover {
-  transition-duration:0.5s;
-  width: 320px;
+.form-input {
   background-color: lightblue;
 }
 
-.zippy:hover {
-  transition-duration:0.5s;
-  width: 300px;
+.zippy {
   background-color: lightblue;
 }
 
@@ -94,6 +93,11 @@ button:focus {
     font-style: italic;
     text-align: right;
 }
+
+textarea::placeholder {
+                /* Firefox, Chrome, Opera */
+                text-align: left;
+            }
 
 input, select, textarea {
     -ms-box-sizing:content-box;
